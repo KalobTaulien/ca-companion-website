@@ -8,6 +8,7 @@ import SpeakerTapes from "@/components/SpeakerTapes";
 import NewsSection from "@/components/NewsSection";
 import Resources from "@/components/Resources";
 import WorldMap from "@/components/WorldMap";
+import FAQ from "@/components/FAQ";
 import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
 
@@ -29,6 +30,7 @@ const Index = () => {
           <Resources />
         </div>
         <WorldMap />
+        <FAQ />
         <FinalCTA />
       </main>
       <Footer />
