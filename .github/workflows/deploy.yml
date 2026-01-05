@@ -8,6 +8,7 @@ on:
       - '**/*.css'
       - '**/*.js'
       - '**/*.jsx'
+      - '**/*.ts'
       - '**/*.png'
       - '**/*.html'
       - '**/*.json'
@@ -34,6 +35,8 @@ jobs:
 
       - name: Build
         run: npm run build
+        env:
+          GITHUB_PAGES: true
 
       - name: List build output
         run: ls -lhR dist
